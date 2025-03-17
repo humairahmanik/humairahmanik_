@@ -1,54 +1,79 @@
-<header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpustakaan Pribadi</title>
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-# GitHub Pages
+<!-- Feather Icons -->
+<script src="https://unpkg.com/feather-icons"></script>
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+    <!--My Style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-</header>
+    <!-- Navbar start -->
+    <nav class="navbar">
+       <a href="#" class="navbar-logo">perpustakaan<span>pribadi</span>.</a>
+    
+       <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#collection">Collection</a>
+        <a href="#contact">Contact</a>
+        
+       </div>
 
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
+       <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="book-open"><i data-feather="book-open"></i></a>
+        <a href="#" id="menu"><i data-feather="menu"></i></a>
 
-## Step 1: Enable GitHub Pages
+       </div>
+    </nav>
 
-_Welcome to GitHub Pages and Jekyll :tada:!_
+    <!-- Navbar end -->
+    
 
-The first step is to enable GitHub Pages on this [repository](https://docs.github.com/en/get-started/quickstart/github-glossary#repository). When you enable GitHub Pages on a repository, GitHub takes the content that's on the main branch and publishes a website based on its contents.
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+        <main class="content">
+            <h1>Selamat Datang di<span>Perpustakaan Saya</span></h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque saepe et nesciunt nemo iusto, quos magnam possimus praesentium doloremque earum ipsa vero, porro quod eos sit eum! Dolores sunt corrupti id accusantium a alias recusandae! Enim dolorem doloribus ratione culpa id perferendis velit, quas officiis non nemo officia. Dolor, saepe voluptas quidem esse hic voluptatibus cumque excepturi nisi et aut accusantium doloribus cum, provident voluptatem dolore? Nulla aliquid deleniti tenetur iste accusantium maxime quae ipsam beatae cum dolorem officia inventore aliquam doloremque magnam possimus excepturi magni, nihil adipisci consequatur, odit, obcaecati dolor sint! Excepturi magni ea reprehenderit veritatis expedita nobis.</p>
+            <a href="#" class="cta">Kerjasama Perpustakaan</a>
+        </main>
+    </section>
+    <!-- Hero Section end -->
 
-### :keyboard: Activity: Enable GitHub Pages
+    <!-- About Section start-->
+     <section id="about" class="about">
+        <h2><span>About</span> Me</h2>
 
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. Under your repository name, click **Settings**.
-1. Click **Pages** in the **Code and automation** section.
-1. Ensure "Deploy from a branch" is selected from the **Source** drop-down menu, and then select `main` from the **Branch** drop-down menu.
-1. Click the **Save** button.
-1. Wait about _one minute_ then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-   > Turning on GitHub Pages creates a deployment of your repository. GitHub Actions may take up to a minute to respond while waiting for the deployment. Future steps will be about 20 seconds; this step is slower.
-   > **Note**: In the **Pages** of **Settings**, the **Visit site** button will appear at the top. Click the button to see your GitHub Pages site.
+        <div class="row">
+            <div class="about-img">
+                <img src="img/tentang-aku.jpg" alt="About Me">
+            </div>
+            <div class="content">
+             <h3>Siapa saya?</h3>
+             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt eos, assumenda, debitis tempora, commodi neque eius perspiciatis nostrum quisquam atque nesciunt totam minima maiores fuga. Perferendis optio cupiditate error mollitia dolores hic laudantium earum fuga ipsa, praesentium, repellat fugit architecto cum ea distinctio. Natus possimus nisi itaque doloribus ratione ullam aliquid rem tempore reiciendis nesciunt quam laboriosam, ipsa est placeat, blanditiis esse distinctio hic accusantium corporis voluptatibus iusto, velit labore tempora totam! Sit illum nihil ipsa nulla consequuntur, perspiciatis, magnam, cumque fugit ratione doloremque odio nobis molestias accusantium facilis corrupti soluta. Aspernatur iure corporis vero nulla illum quod ullam laboriosam!</p>  
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate amet obcaecati iusto perspiciatis tenetur. Sint repellendus temporibus totam necessitatibus debitis ut aliquid quibusdam, soluta ad magni corporis fugiat reprehenderit labore ratione blanditiis possimus dicta earum nobis? Eius consequatur recusandae voluptates excepturi nihil, est quibusdam. Aut dolore sed cumque natus qui.</p> 
+            </div>
+        </div>
+     </section>
+    <!-- About Section end-->
 
-<footer>
+    <!-- Feather Icons -->
+    <script>
+        feather.replace();
+      </script>
 
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
+      <!-- My Javascript -->
+       <script src="js/script.js"></script>
+</body>
+</html>
