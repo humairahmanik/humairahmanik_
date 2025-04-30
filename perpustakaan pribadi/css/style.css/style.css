@@ -18,6 +18,25 @@ body {
     color:black; 
     min-height: 2000px;
 }
+.search-form {
+    display: flex;
+}
+
+.search-form input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.search-form button {
+    background-color: var(--primary);
+    color: black;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
 
 /* Navbar */
 .navbar {
